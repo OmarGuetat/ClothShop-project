@@ -1,0 +1,20 @@
+.hero-main{
+    border-radius : var(--border-radius-primary);
+    padding: var(--padding-primary);
+}
+.hero-subtitle{
+    color:var(--color-break)
+}
+.hero-text{
+    max-width: 500px;
+    color:var(--color-light);
+}
+.hero-title{
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-bottom: calc(var(--margin-primary)/2);
+    font-weight: var(--fontWeight-bold);
+}
+.hero-title em {
+    color: var(--color-primary);
+}

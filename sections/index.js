@@ -1,0 +1,8 @@
+export {default as Header} from "./Header/Header"
+export {default as Footer} from "./Footer/Footer"
+export {default as Hero} from "./Hero/Hero"
+export {default as ManLib} from "./ManLib/ManLib"
+export {default as WomanLib} from "./WomanLib/WomanLib"
+export {default as KidsLib} from "./KidsLib/KidsLib"
+export{default as Collection } from "./Collection/Collection"
+export{default as CardsCollection } from "./CardCollection/CardsCollection"

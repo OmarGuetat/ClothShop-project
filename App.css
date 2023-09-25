@@ -1,0 +1,32 @@
+:root{
+    --color-dark: #333739;
+    --color-darkest: #27292a;
+    --color-light: #fff;
+    --color-primary:#3e80b6;
+    --color-secondary:#2aa397;
+    --color-break:#781a9a;
+    --color-icons : yellow; 
+    --distance-primary:100px;
+    --padding-primary:var(--distance-primary);
+    --margin-primary:var(--distance-primary);
+    --border-radius-primary:calc(var(--distance-primary)/2);
+    --fontWeight-bold:700;
+    --fontWeight-normal:200;
+    --font-family: 'Open Sans', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+body{   
+    font-family: var(--font-family);
+    background-color: #FFC107;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: var(--color-primary);
+}
+p{
+    font-weight: var(--fontWeight-normaL);
+    font-size:medium;
+}
